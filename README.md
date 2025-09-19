@@ -1,4 +1,4 @@
-# STM32-based Automatic Food Dryer Controller
+# STM32-Temperature-Control-System
 
 > STM32 MCU를 사용하여 온도와 팬/환풍구를 자동으로 제어하는 펌웨어입니다. 온도 센서(DS18B20)로 내부 온도를 측정하여 설정값에 도달하면 히터를 끄고, 모터 팬과 서보 모터 환풍구를 동작시켜 효율적으로 식품을 건조합니다.
 
@@ -54,5 +54,6 @@ This project is licensed under the **GNU General Public License v3.0**.
 The core licensing of this project is determined by its dependencies. The driver for the DS18B20 sensor is based on the work from **[nimaltd/ds18b20](https://github.com/nimaltd/ds18b20)**, which is licensed under GPL-3.0. Consequently, this entire project is also released under the same license.
 
 Additionally, the implementation for the SSD1306 OLED display was referenced from the tutorial provided by **[ControllersTech](https://controllerstech.com/oled-display-using-i2c-stm32/)**.
+
 
 For the full license text, please see the `LICENSE` file included in this repository.
